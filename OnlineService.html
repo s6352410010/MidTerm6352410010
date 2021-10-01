@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="XXX">
+    <meta name="description" content="YYY">
+    <meta name="author" content="6352410010">
+    <title>OnlineService</title>
+    <link rel="shortcut icon" href="./img/1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div align="center">
+        <img src="./img/2.png" alt="" width="300">
+    </div>
+    <h1 align="center">Online Services V1.0</h1>
+    <h3 align="center">"ชำระค่าสาธารณูปโภคหลากหลายเพื่อความสะดวกของคุณ"</h3>
+    <hr width="80%">
+    <form action="#" method="POST">
+        <table border="0" width="80%" cellpadding="10" align="center">
+            <tr>
+                <td align="right">รหัสประจำตัวประชาชน</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td align="right">คำนำหน้า</td>
+                <td>
+                    <input type="radio" name="prefix" id="" value="1" checked>นาย
+                    <input type="radio" name="prefix" id="" value="2">นาง
+                    <input type="radio" name="prefix" id="" value="3">นางสาว
+                </td>
+            </tr>
+            <tr>
+                <td align="right">ชื่อ-สกุล</td>
+                <td><input type="text" name="name" id=""></td>
+            </tr>
+            <tr>
+                <td align="right">ค่าสาธารณูปโภค</td>
+                <td>
+                    <input type="checkbox" name="water" id="">ปะปา &nbsp;&nbsp;<input type="number" name="water_p" id=""> บาท<br><br>
+                    <input type="checkbox" name="elec" id="">ไฟฟ้า &nbsp;&nbsp;<input type="number" name="elec_p" id=""> บาท<br><br>
+                    <input type="checkbox" name="htel" id="">โทรศัพท์บ้าน &nbsp;&nbsp;<input type="number" name="htel_p" id=""> บาท<br><br>
+                    <input type="checkbox" name="ais" id="">AIS &nbsp;&nbsp;<input type="number" name="ais_p" id=""> บาท<br><br>
+                    <input type="checkbox" name="dtac" id="">DTAC &nbsp;&nbsp;<input type="number" name="dtac_p" id=""> บาท<br><br>
+                    <input type="checkbox" name="true" id="">TRUE &nbsp;&nbsp;<input type="number" name="true_p" id=""> บาท<br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">ส่วนลดเฉพาะค่าสาธารณูปโภค</td>
+                <td>
+                    <select name="discount" id="">
+                        <option value="1">ไม่มีส่วนลด</option>
+                        <option value="2">ลด 5%</option>
+                        <option value="3">ลด 10%</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <hr width="80%">
+        <div align="center">
+            <button>ชำระค่าปริการ</button>&nbsp;&nbsp;&nbsp;
+            <button>ยกเลิก</button>
+            <br><br><br><br>
+            <b><u>หมายเหตุ</u></b> ค่าบริการ 15 บาทต่อรายการสาธารณูปโภค และไม่นำไปคิดกับส่วนลด
+        </div>
+        <br><br><br>
+    </form>
+</body>
+
+</html>
